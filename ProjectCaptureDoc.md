@@ -26,9 +26,13 @@ A working feedback tool that gives us the data of the user and web page they're 
 
 #### Definition of Inputs
 
+User Input into the survey in the popup.
+
 <!-- List here a type definition for each input. For example, if it is a CSV define the column names. If it is a JSON, give an example of the JSON structure. If it is user input, what will the user be asked for? -->
 
 #### Source of Inputs
+
+Qualtrics survey/popup that is injected via JavaScript.
 
 <!-- Paragraph of how to get inputs. From who? From where: Slack, email, server...? This also includes user selected options at runtime. How will we know what options to select? For example, in conversion tool, you'd follow the values on the Trello Board. It would also include the steps to get access to the information you need, such as getting added to a Trello Board, or access to a server. -->
 
@@ -51,6 +55,8 @@ Grabs embedded data from user:
 
 #### Destination of Outputs
 
+After the survey gets that data it will send it to qualtrics for stakeholders and others to be able to organize and find the source of the problem.
+
 <!-- Paragraph where/who to send outputs. To who? To where: Email, server, directly to LMS...? It would also include the steps to get access to the locations you need, such as getting added to a Trello Board, or access to a server, or the LMS. -->
 
 ---
@@ -60,6 +66,9 @@ Grabs embedded data from user:
 #### Type:
 
 It will be a feedback UI tool on Canvas. It will pop up on the right side of the screen.
+
+![Minimized](popupMinimized.png "Popup Minimized")
+![Open](popupOpen.png "Popup Open")
 
 -----
 
@@ -74,11 +83,14 @@ It will be a feedback UI tool on Canvas. It will pop up on the right side of the
 - Determine usefulness/future actions at that point
 
 ### Best Mode of Contact
+Email - stokesst@byui.edu
+Or his office - Lamprecht 108
 
 ### Next Meeting
 
 
 ### Action Items
+Get popup working in Canvas and then see if we can't pass data to Qualtrics through it
 <!-- Recap Meeting -->
 #### TechOps
 #### Stakeholder
