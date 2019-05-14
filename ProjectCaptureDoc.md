@@ -67,7 +67,10 @@ After the survey gets that data it will send it to qualtrics for stakeholders an
 
 It will be a feedback UI tool on Canvas. It will pop up on the right side of the screen.
 
+Here is the qualtrics tool unopened:
 ![Minimized](popupMinimized.png "Popup Minimized")
+
+Here is the qualtrics tool once opened with a sample survey inside:
 ![Open](popupOpen.png "Popup Open")
 
 -----
